@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BottomNaviActivity">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_bottom_navi_act_frag_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tl_bottom_navi_act_bottom_menu"
+        android:layout_width="match_parent"
+        android:elevation="5dp"
+        android:layout_height="56dp"
+        android:background="#FFFFFF"
+        app:tabIndicatorColor="#40D39F"
+        android:layout_alignParentBottom="true">
+    </com.google.android.material.tabs.TabLayout>
+</RelativeLayout>
