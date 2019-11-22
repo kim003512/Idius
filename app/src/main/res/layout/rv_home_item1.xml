@@ -26,8 +26,9 @@
 
     <ImageView
         android:id="@+id/rv_item1_selector"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:scaleType="fitXY"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:src="@drawable/star_empty_icon"

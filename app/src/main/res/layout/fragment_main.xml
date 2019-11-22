@@ -85,8 +85,22 @@
 
                 android:id="@+id/rvItemRepo3"
                 android:layout_width="match_parent"
-                android:layout_height="400dp">
+                android:layout_height="300dp">
             </androidx.recyclerview.widget.RecyclerView>
+            <me.relex.circleindicator.CircleIndicator2
+                android:id="@+id/rvMainMdReCoIndicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ci_width="8dp"
+                app:ci_height="8dp"
+                app:ci_gravity="center"
+                app:layout_constraintTop_toBottomOf="@id/rvItemRepo3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:ci_drawable="@drawable/indicator_circle"
+                app:ci_drawable_unselected="@drawable/indicator_circle_unchecked"
+                android:layout_marginEnd="1dp"
+                />
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
