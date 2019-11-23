@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="171dp"
+    android:layout_height="213dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <ImageView
+        android:id="@+id/imgForYou"
+        android:layout_width="158dp"
+        android:layout_height="158dp"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <CheckedTextView
+        android:id="@+id/ckForYouStar"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        app:layout_constraintStart_toStartOf="@+id/imgForYou"
+        app:layout_constraintTop_toTopOf="@+id/imgForYou"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="130dp"
+        android:checked="false"
+        android:background="@drawable/selector_star"
+        />
+
+
+    <ImageView
+        android:id="@+id/imgForYouStore"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintStart_toStartOf="@id/imgForYou"
+        app:layout_constraintTop_toBottomOf="@id/imgForYou"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="16dp"
+        />
+    
+    <TextView
+        android:id="@+id/txtForYouTitle"
+        android:text="TempTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3sp"
+        app:layout_constraintStart_toEndOf="@id/imgForYouStore"
+        app:layout_constraintTop_toTopOf="@id/imgForYouStore"
+        android:layout_marginStart="8dp"
+        />
+    <TextView
+        android:id="@+id/txtForYouDesc"
+        android:text="TempDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2sp"
+        app:layout_constraintStart_toStartOf="@id/txtForYouTitle"
+        app:layout_constraintTop_toBottomOf="@id/txtForYouTitle"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

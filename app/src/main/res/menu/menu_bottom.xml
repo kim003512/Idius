@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item-->
+<!--        android:id="@+id/tab1"-->
+<!--        app:showAsAction="ifRoom"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/home_icon"-->
+<!--        android:title="홈"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/tab2"-->
+<!--        app:showAsAction="ifRoom"-->
+<!--        android:icon="@drawable/class_icon"-->
+<!--        android:title="금손클래스"/>-->
+
+<!--    <item-->
+<!--        android:id ="@+id/tab3"-->
+<!--        app:showAsAction="ifRoom"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/search_icon"-->
+<!--        android:title="검색" />-->
+<!--    <item-->
+<!--        android:id ="@+id/tab4"-->
+<!--        app:showAsAction="ifRoom"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/mypage_icon"-->
+<!--        android:title="마이페이지" />-->
+    <item
+        android:id="@+id/tab1"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/home_selected_icon"
+        android:title="작품"/>
+
+    <item
+        android:id="@+id/tab2"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/class_selected_icon"
+        android:title="금손클래스"/>
+
+    <item
+        android:id ="@+id/tab3"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/search_icon"
+        android:title="검색" />
+    <item
+        android:id ="@+id/tab4"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/mypage_icon"
+        android:title="내정보" />
+
+</menu>

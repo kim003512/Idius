@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:layout_width="210dp"
+                                                   android:layout_height="156dp"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+            android:id="@+id/iv_item_goldclass_thumbnail"
+            android:layout_width="200dp"
+            android:layout_height="112dp"
+            android:background="@drawable/img_1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+    <ImageView
+            android:id="@+id/iv_item_goldclass_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_star"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toTopOf="@+id/iv_item_goldclass_thumbnail"
+            app:layout_constraintEnd_toEndOf="@+id/iv_item_goldclass_thumbnail"/>
+    <ImageView
+            android:id="@+id/iv_item_goldclass_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile_5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+            android:id="@+id/tv_item_goldclass_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="통통 다쿠아즈 만들기"
+            android:textSize="16sp"
+            android:textColor="#443d3b"
+            app:layout_constraintStart_toEndOf="@+id/iv_item_goldclass_profile"
+            app:layout_constraintTop_toBottomOf="@+id/iv_item_goldclass_thumbnail"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="8dp"/>
+    <TextView
+            android:id="@+id/tv_item_goldclass_store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메르시오브"
+            android:textSize="12sp"
+            android:textColor="#9c9c9c"
+            app:layout_constraintStart_toEndOf="@+id/iv_item_goldclass_profile"
+            app:layout_constraintTop_toBottomOf="@+id/tv_item_goldclass_title"
+            android:layout_marginLeft="8dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

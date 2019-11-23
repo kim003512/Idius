@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="148dp"
+    android:layout_height="280dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imgBestSell"
+        android:layout_width="136dp"
+        android:layout_height="225dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="12dp"/>
+    
+    <CheckedTextView
+        android:id="@+id/ckBestSellStar"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintStart_toStartOf="@id/imgBestSell"
+        app:layout_constraintTop_toTopOf="@id/imgBestSell"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="108dp"
+        android:background="@drawable/selector_star"/>
+        />
+    <ImageView
+        android:id="@+id/imgBestSellStore"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintStart_toStartOf="@id/imgBestSell"
+        app:layout_constraintTop_toBottomOf="@id/imgBestSell"
+        android:layout_marginTop="16dp"
+        />
+    <TextView
+        android:id="@+id/txtBestSellTitle"
+        android:text="TempTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/titleStringColor"
+        app:layout_constraintStart_toEndOf="@id/imgBestSellStore"
+        app:layout_constraintTop_toBottomOf="@id/imgBestSell"
+        android:layout_marginTop="16dp"
+        android:lineSpacingExtra="3sp"
+        />
+
+    <TextView
+        android:id="@+id/txtBestSellDesc"
+        android:text="TempDest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/txtBestSellTitle"
+        app:layout_constraintTop_toBottomOf="@id/txtBestSellTitle"
+        android:lineSpacingExtra="2sp"/>
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

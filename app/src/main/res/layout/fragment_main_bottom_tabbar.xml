@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="55dp">
+    <LinearLayout
+        android:id="@+id/ll_main_act_tab_bar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_main_home_tab"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/ib_main_home_tab"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/home_icon"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                />
+            <TextView
+                android:id="@+id/tv_main_home_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="작품"
+                android:fontFamily="@font/noto_sans_kr_medium_hestia"
+                android:textSize="10sp"
+                android:textColor="#3b3b3b"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_main_class_tab"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/iv_main_class_tab"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/class_selected_icon"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_class_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/noto_sans_kr_medium_hestia"
+                android:text="금손 클래스"
+                android:textColor="#d93523"
+                android:textSize="10sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_main_search_tab"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/iv_main_search_tab"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/search_icon"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_main_search_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="검색"
+                android:fontFamily="@font/noto_sans_kr_medium_hestia"
+                android:textSize="10sp"
+                android:textColor="#868686"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_main_mypage_tab"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/iv_main_mypage_tab"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/mypage_icon"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_main_mypage_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/noto_sans_kr_medium_hestia"
+                android:text="보관함"
+                android:textColor="#868686"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
